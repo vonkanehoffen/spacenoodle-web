@@ -1,0 +1,60 @@
+---
+import SpaceNoodleBg from '../assets/space-noodle-bg.jpg';
+import ArrowDown from '../assets/arrow-down.svg';
+---
+
+<div id="container">
+  <!-- <img src={SpaceNoodleLogo.src} alt="Space Noodle Logo" /> -->
+  <div id="inner">
+    <h1>Space Noodle</h1>
+    <div id="spacer"></div>
+    <h2>Electronic Music Open Mic</h2>
+    <a id="arrow-bar" href="#info">
+      <img src={ArrowDown.src} alt="Arrow Down" />
+      <img src={ArrowDown.src} alt="Arrow Down" />
+      <img src={ArrowDown.src} alt="Arrow Down" />
+      <img src={ArrowDown.src} alt="Arrow Down" />
+    </a>
+  </div>
+</div>
+
+<style define:vars={{backgroundImage: `url(${SpaceNoodleBg.src})`}}>
+  /* Import fonts from Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Silkscreen&display=swap');
+
+  #container {
+    width: 100vw;
+    height: 100vh;
+    background: var(--backgroundImage) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+  }
+  #inner {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-family: 'Silkscreen', cursive;
+    font-size: 5rem;
+    margin: 0;
+  }
+
+  h2 {
+    font-family: 'Germania One', cursive;
+    font-size: 2rem;
+  }
+
+  #spacer {
+    flex: 1;
+  }
+
+  #arrow-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+</style>
