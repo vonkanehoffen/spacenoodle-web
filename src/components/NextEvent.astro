@@ -1,0 +1,31 @@
+---
+import { Content } from '../content/next-event.md';
+import Prose from './Prose.astro';
+---
+<div id="container">
+  <div id="inner">
+    <h1 class="text-4xl font-bold">Next Event</h1>
+  <Prose>
+    <Content />
+  </Prose>
+</div>
+</div>
+
+<style>
+  #container {
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  #inner {
+    padding: 1rem;
+  }
+  
+  h1 {
+      font-family: 'Silkscreen', cursive;
+  }
+
+  h2 {
+    font-family: 'Silkscreen', cursive;
+  }
+</style>
