@@ -1,10 +1,18 @@
-# Join Our Next Spacenoodle Gathering!
+## Next Event
+# Dulcimer Bar, Chorlton M21 28 Jan 2025
 
-Get ready for an exciting virtual meetup where we'll explore the latest in space technology and innovation. Connect with fellow space enthusiasts and share your passion for the cosmos.
+A night of live electronic music! Free entry, tasty beers, weird noises.
 
-## Event Details
-- **Date:** February 15th, 2024
-- **Time:** 19:00 GMT
-- **Platform:** Zoom
+## Artists
+- Wild Forts
+- Mythical Brewery
+- Rum Kleven
+- SOS
+- Afrolektronik
+- Freshpots
+- James D O'shea
 
-[Register Now](#) to secure your spot! 
+## Last Tuesday of every month
+
+Email demos to [spacenoodlemcr@gmail.com](spacenoodlemcr@gmail.com) to play at the next one. 
+
